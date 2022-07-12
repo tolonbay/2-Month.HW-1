@@ -11,6 +11,9 @@ public class Broilers extends Layers {
     public int getMeet() {
         return meet;
     }
+    public final void meetProduction(){
+        System.out.println("Мясо за 45 дней: "+getMeet()+ "% от живой массы");
+    }
 
     public void getInfo(){
         System.out.println("Порода:  "+ getBreed()+
@@ -18,4 +21,5 @@ public class Broilers extends Layers {
                 "\nЯйцо в год:"+ getEggs()+" штук"+
                 "\nСветь  "+getColor());
     }
+
 }

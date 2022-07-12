@@ -8,8 +8,15 @@ public class Main {
     Broilers broilers = new Broilers("Cobb 500", 45, 75,0,Color.WHITE,75);
     Broilers broilers1 = new Broilers("Ross - 300", 2,70,0,Color.BROWN,70);
 
+    layers.LayingEggs();
+        System.out.println("______________________-");
+
+    broilers.meetProduction();
+        System.out.println("_______________________________");
+
     layers.getInfo();
         System.out.println("_______________________________");
+
     broilers.getInfo();
 
     }
